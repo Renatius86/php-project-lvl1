@@ -1,16 +1,18 @@
 {
-    "name": "hexlet/code",
-    "description": "first-level",
-    "bin": [
-        "bin/brain-games"
-    ],
-    "autoload": {
-        "files": [
-            "src/Cli.php"
-        ]
-    },
-    "license": "GPL-3.0-or-later",
-    "require": {
-        "wp-cli/php-cli-tools": "^0.11.14"
-    }
+  "name": "hexlet/code",
+  "description": "first-level",
+  "bin": [
+    "bin/brain-games",
+    "bin/brain-even"
+  ],
+  "autoload": {
+    "files": [
+      "src/Cli.php",
+      "src/User.php"
+    ]
+  },
+  "license": "MIT",
+  "require": {
+    "wp-cli/php-cli-tools": "^0.11.14"
+  }
 }
