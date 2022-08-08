@@ -3,12 +3,15 @@
   "description": "first-level",
   "bin": [
     "bin/brain-games",
-    "bin/brain-even"
+    "bin/brain-even",
+    "bin/brain-calc"
   ],
   "autoload": {
     "files": [
       "src/Cli.php",
-      "src/User.php"
+      "src/Games/User.php",
+      "src/Games/Calc.php",
+      "src/Engine.php"
     ]
   },
   "license": "MIT",
