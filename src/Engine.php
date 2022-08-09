@@ -20,7 +20,7 @@ function result($answer, $correctAnswer, $name)
         return true;
     } else {
         echo "'{$answer}' is wrong answer ;). Correct answer was '{$correctAnswer}'\n";
-        line("Let's try again, %s", $name);
+        line("Let's try again, %s!", $name);
         return false;
     }
 }
