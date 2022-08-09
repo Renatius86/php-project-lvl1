@@ -1,5 +1,5 @@
 {
-  "name": "ren86/first-project",
+  "name": "hexlet/code",
   "description": "first-level",
   "bin": [
     "bin/brain-games",
