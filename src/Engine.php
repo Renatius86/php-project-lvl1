@@ -13,7 +13,7 @@ function welcome()
     return $name;
 }
 
-function result($answer, $correctAnswer, $name)
+function result(mixed $answer, mixed $correctAnswer, string $name)
 {
     if ($answer === $correctAnswer) {
         line('Correct!');
