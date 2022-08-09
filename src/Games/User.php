@@ -35,6 +35,7 @@ function evenOrNot()
         }
         if ($count === 3) {
             line("Congratulations, %s!", $name);
+            return;
         }
     }
 }

@@ -43,6 +43,7 @@ function calculation()
         }
         if ($count === 3) {
             line("Congratulations, %s!", $name);
+            return;
         }
     }
 }
